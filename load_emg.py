@@ -9,21 +9,21 @@ import os
 
 
 #Global
-os.chdir('C:/Users/Umar Ali/Google Drive/SFSF 2019/Arduino Related/operation_onepunch')
-emg_health = np.loadtxt('emg_healthy.txt')
-emg_full = np.loadtxt('grant_emg_full_profile.txt')
-emg_test1 = np.loadtxt('grant_emg_test1_3222019.txt')
+os.chdir('/home/umaru/Documents/SFSF 2019/Arduino Related/operation_onepunch')
+emg_health = np.loadtxt('data_sets/emg_healthy.txt')
+emg_full = np.loadtxt('data_sets/grant_emg_full_profile.txt')
+emg_test1 = np.loadtxt('data_sets/grant_emg_test1_3222019.txt')
 #emg_health
-xh = emg_health[:,0]
-yh = emg_health[:,1]
+xh = emg_health[:,0] #time
+yh = abs(emg_health[:,1])#
 
 #emg_full
-xf = emg_full[:,0]
-yf = emg_full[:,1]
+xf = emg_full[:,0] #sEMG
+yf = emg_full[:,1] #time
 
 #emg_test1
-x1 = emg_test1[:,0]
-y1 = emg_test1[:,1]
+x1 = emg_test1[:,0]#sEMG
+y1 = emg_test1[:,1]#time
 
 def health():
     plt.plot(xh,yh)

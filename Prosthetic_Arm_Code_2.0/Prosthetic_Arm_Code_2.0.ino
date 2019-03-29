@@ -35,9 +35,9 @@ void loop() {
   analogWrite(analogOutPin, outputValue);
   // print the results to the Serial Monitor:
   time = millis();
-//  Serial.println(time); //prints time since program started
+  //Serial.println(time); //prints time since program started
   delay(100);
-//  Serial.print(sensorValue);
+  //Serial.print(sensorValue);
   Serial.print(" ");
   // Serial.println(outputValue);
 
@@ -51,7 +51,11 @@ void loop() {
       servo4.write(servoPos);
       servo5.write(servoPos);
       delay(100);
+      if(servoPos=180) {
+        servopos=180
+      }
     }
+
   }
    else {
     servoPos = 0;
