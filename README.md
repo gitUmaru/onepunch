@@ -20,4 +20,4 @@
 
 
 
-<a href='https://docs.google.com/document/d/1BGWByeF-VUokjxzNBKsHKiJcvoc7TiH_eAW1-0QYPF4/edit?usp=sharing'>Click here for the full paper (with images)</a>
+<a href='https://imgur.com/1H216oR'> A gif of my partner Grant using the arm (electrodes are picking up a lot of noise so arm is a little shakey)</a>
