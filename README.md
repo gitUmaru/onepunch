@@ -3,7 +3,8 @@
 <p>The aim of this project was to use electromyographic signals from motor neurons by measuring action potentials in muscles to create an analog signal. 
   </br> </br>
   Through this signal one can then map analog to digital, after rectifying data for cardiac interference and other electrical obstructions, to dictate the position of servo motors. The servo motors would then “contract” fishing wire by simply rotating which, through a clever system of pulleys, allows for full control of the arm. 
-   </br> </br>
+   </br><img src="https://i.imgur.com/9MxpJgs.jpg"/> </br>
+   
   The acquisition of electromyography signals are attained from an electrogram which measures for electrical impulses through electrodes place on the muscle, rather the epidermal area of where the muscle would be. The electrical impulses are then amplified and rectified through an integrated circuit. These signals are then read by a microcontroller which feeds analyzed data to internal actuator</p>
    </br> </br>
 <p>Rectification of the data is mainly done through the electromyogram circuit however this simply includes taking the absolute value of the voltage that is acquired. Post-acquisition rectification can be done to smooth out the data by statistical analysis but typically is not done in out experiment. 
@@ -19,5 +20,6 @@
   One of the biggest problems that were presented was the classification of individual fingers. Distinguishing one finger from another was a large issue mainly due in part to the lack of sensors on the forearm. Our model only incorporated one sensor with three channels acquiring signals from the input sensor itself. One of the ways we attempted to solve this issue was by introducing a machine learning model, specifically the use of an extreme learning machine (ELM). The process was broken down into several parts: moving, movement detection, feature and label extraction, dimensionality reduction, and classification.
 
 
-
+<img src="https://i.imgur.com/3aDkbFI.jpg"/>
+<img src="https://i.imgur.com/vWHt7pM.jpg"/>
 <a href='https://imgur.com/1H216oR'> A gif of my partner Grant using the arm (electrodes are picking up a lot of noise so arm is a little shakey)</a>
